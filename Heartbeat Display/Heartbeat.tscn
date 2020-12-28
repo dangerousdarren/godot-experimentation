@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Heartbeat.gd" type="Script" id=1]
+
+[node name="Heartbeat" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Time" type="Label" parent="."]
+anchor_bottom = 1.0
+margin_left = 11.0
+margin_top = 8.0
+margin_right = 92.0
+margin_bottom = 35.0
+text = "Time"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Heartrate" type="Label" parent="."]
+anchor_bottom = 1.0
+margin_left = 11.0
+margin_top = 43.0
+margin_right = 71.0
+margin_bottom = 57.0
+text = "Heartrate"
+__meta__ = {
+"_edit_use_anchors_": false
+}
